@@ -118,6 +118,40 @@ $(document).ready(function(){
         $('#mytabs a[href="#libro_tab"]').tab('show');
     })
 
+    $('#cap').click(function(e){
+      e.preventDefault();
+        $('#mytabs a[href="#cap_tab"]').tab('show');
+    })
+
+    $('#investigacion').click(function(e){
+      e.preventDefault();
+        $('#mytabs a[href="#inv_tab"]').tab('show');
+    })
+
+    $('#arbitrados').click(function(e){
+      e.preventDefault();
+        $('#mytabs a[href="#arb_tab"]').tab('show');
+    })
+
+    $('#indexados').click(function(e){
+      e.preventDefault();
+        $('#mytabs a[href="#index_tab"]').tab('show');
+    })
+    $('#ponencia').click(function(e){
+      e.preventDefault();
+        $('#mytabs a[href="#pon_tab"]').tab('show');
+    })
+
+    $('#material').click(function(e){
+      e.preventDefault();
+        $('#mytabs a[href="#mat_tab"]').tab('show');
+    })
+
+    $('#profesor').click(function(e){
+      e.preventDefault();
+        $('#mytabs a[href="#prof_tab"]').tab('show');
+    })
+
   })
 
   // 8
@@ -131,7 +165,7 @@ $(document).ready(function(){
 
   // 9
   $('.btn-toggle').click(function() {
-        $(this).find('.btn').toggleClass('active');  
+        $(this).find('.btn').toggleClass('active');
 
         if ($(this).find('.btn-primary').size()>0) {
         	$(this).find('.btn').toggleClass('btn-primary');
